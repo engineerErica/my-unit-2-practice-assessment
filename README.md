@@ -231,12 +231,14 @@ console.log(`I have no doubt that ${theCEO} will be running a company of his own
 
 
 19. **What does it mean to _pass by value_? For what data types does JavaScript _pass by value_? Use a code snippet to illustrate.**
+
 **tags:** #mutability #functionExecution
 **key:** "primitive data types are passed by value"
 
 
 
 20. **What does it mean to _pass by reference_? For what data types does JavaScript  appear to _pass by reference_? Use a code snippet to illustrate.**
+
 **tags:** #mutability #functionExecution
 **key:** "JavaScript objects are passed by reference"
 

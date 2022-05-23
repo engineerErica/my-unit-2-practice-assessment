@@ -3,7 +3,7 @@
 
 1. **The function declaration comes _after_ the variable declaration in the code below. Why does it still work?**
 ```javascript
-let greeting = "Hello"!
+let greeting = "Hello!"
 
 function sayItLoud() {
   console.log(`${greeting}!!!`)

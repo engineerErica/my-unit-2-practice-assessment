@@ -1,7 +1,7 @@
 # Unit 2 Assessment Study Guide - JavaScript Fundamentals
 ## Short Responses 
 
-1. **The function declaration comes _after_ the variable declaration in the code below. Why does it still work?**
+1. **The function declaration comes _after_ the variable declaration in the code below. What will happen when it this code runs?**
 ```javascript
 let greeting = "Hello!"
 

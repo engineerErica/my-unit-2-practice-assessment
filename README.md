@@ -38,7 +38,7 @@ var greeting = "Hello"
 
 
 
-4. **Why does the following block of code throw an error? Fix this without changing the variable declaration keyword.**
+4. **Why does the following block of code throw an error? How can we fix this without changing the variable declaration keyword?**
 ```javascript
 const isMaya🧘🏽‍♀️ = true;
 
@@ -50,6 +50,8 @@ if (isMaya🧘🏽‍♀️) {
 
 console.log(status);
 ```
+**tags:** #variableScope
+**key:** "let is block scoped"
 
 
 
@@ -65,7 +67,8 @@ if (isLaishaOnTime) {
 
 console.log(status);
 ```
-
+**tags:** #variableScope
+**key:** "variables declared with var are not block scoped"
 
 
 6. **In JavaScript, we can declare variables with `var`, `let`, and `const`. What are the differences between each? Be sure to comment on how each declaration impacts the _scope_, _reassignment_, and _hoisting_ of variables.**

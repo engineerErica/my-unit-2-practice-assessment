@@ -315,7 +315,7 @@ combineArrays(['a', 'b'], ['x', 'y']);    // ['a', 'x', 'b', 'y']
 combineArrays([true], [false]);           // [true, false]
 ```
 
-5. Write a function that returns an object that shows how many times each vowel shows up in a sentence (vowels are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`). the return objects should have exactly 5 key-value pairs, one for each vowel (the value shold be the number of times that vowel appears in the sentence). 
+5. Write a function that returns an object that shows how many times each vowel shows up in a sentence (vowels are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`). The returned object should have exactly 5 key-value pairs, one for each vowel (the value shold be the number of times that vowel appears in the sentence). 
 
 Example:
 ```javascript

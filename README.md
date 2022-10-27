@@ -306,8 +306,26 @@ isLeapYear(2000); // true
 ```
 
 
+4. Write a function that combines two arrays into one new array. The new array should start with an item from the first array, then an item from the second array, and then alternates. You can assume the two input arrays are the same length.
 
-4. Write a function that takes a sentence string as an argument, and returns that string with every occurrence of a "number word" — `'zero'`, `'one'`, `'two'`, `'three'`, `'four'`, `'five'`, `'six'`, `'seven'`, `'eight'`, `'nine'` — converted to its corresponding digit character.
+Example:
+```javascript
+combineArrays([1, 2, 3], [4, 5, 6]);      // [1, 4, 2, 5, 3, 6]
+combineArrays(['a', 'b'], ['x', 'y']);    // ['a', 'x', 'b', 'y']
+combineArrays([true], [false]);           // [true, false]
+```
+
+5. Write a function that returns an object that shows how many times each vowel shows up in a sentence (vowels are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`). the returns objects should have exactly 5 key-value pairs, one for each vowel, and the value shold be the number of times that vowel appears in the sentence. 
+
+Example:
+```javascript```
+countVowels('Hello World');                                     // {'a': 0, 'e': 1, 'i': 0, 'o': 2, 'u': 0}
+countVowels('The quick brown fox jumped over the lazy dog');    // {'a': 1, 'e': 3, 'i': 1, 'o': 4, 'u': 2}
+countVowels('Over the Marcy Lab School');                       // {'a': 2, 'e': 1, 'i': 0, 'o': 3, 'u': 0}
+```
+
+
+6. Write a function that takes a sentence string as an argument, and returns that string with every occurrence of a "number word" — `'zero'`, `'one'`, `'two'`, `'three'`, `'four'`, `'five'`, `'six'`, `'seven'`, `'eight'`, `'nine'` — converted to its corresponding digit character.
 
 Example:
 ```javascript
@@ -317,7 +335,7 @@ wordToDigit('Please call me at five five five one two three four. Thanks.');
 
 
 
-5. For a game of Dungeons & Dragons, each player starts by generating a character they can play with. This character has, among other things, six abilities; strength, dexterity, constitution, intelligence, wisdom and charisma. These six abilities have scores that are determined randomly. You do this by rolling four 6-sided dice and record the sum of the largest three dice. You do this six times, once for each ability.
+7. For a game of Dungeons & Dragons, each player starts by generating a character they can play with. This character has, among other things, six abilities; strength, dexterity, constitution, intelligence, wisdom and charisma. These six abilities have scores that are determined randomly. You do this by rolling four 6-sided dice and record the sum of the largest three dice. You do this six times, once for each ability.
 
 Your character's initial hitpoints are 10 + your character's constitution modifier. You find your character's constitution modifier by subtracting 10 from your character's constitution, divide by 2 and round down.
 

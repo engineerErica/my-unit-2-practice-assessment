@@ -187,14 +187,14 @@ sum(100, 200, 800, 1, 1, 1); // 1103;
 
 16. **What does the following code log? Why?**
 ```javascript
-let theCreator = 'Devonte';
+let bestCoder = 'Laura';
 
 function shoutOut() {
-  theCreator = 'Peter';
+  bestCoder = 'Motun';
 }
 
 shoutOut();
-console.log(`The best designer in the room is ${theCreator}`.);
+console.log(`The best coder in the room is ${bestCoder}`.);
 ```
 **tags:** #variableScope
 **key:** "functions have access to variables defined in their local scope and all surrounding scopes"
@@ -203,15 +203,15 @@ console.log(`The best designer in the room is ${theCreator}`.);
 
 17. **What does the following code log? Why?**
 ```javascript
-let theHustler = 'Laisha';
+let theGoat = 'Reuben';
 
 function shoutOut() {
-  let theHustler = `Paul`;
-  console.log(`${theHustler} is the hardest working person in the room.`);
+  let theGoat = `Maya`;
+  console.log(`${theGoat} is the hardest working person in the room.`);
 }
 
 shoutOut();
-console.log(`${theHustler} is also the hardest working person in the room.`);
+console.log(`${theGoat} is also the hardest working person in the room.`);
 ```
 **tags:** #variableScope
 **key:** "lexical scope"

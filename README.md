@@ -318,7 +318,7 @@ combineArrays([true], [false]);           // [true, false]
 5. Write a function that returns an object that shows how many times each vowel shows up in a sentence (vowels are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`). the returns objects should have exactly 5 key-value pairs, one for each vowel, and the value shold be the number of times that vowel appears in the sentence. 
 
 Example:
-```javascript```
+```javascript
 countVowels('Hello World');                                     // {'a': 0, 'e': 1, 'i': 0, 'o': 2, 'u': 0}
 countVowels('The quick brown fox jumped over the lazy dog');    // {'a': 1, 'e': 3, 'i': 1, 'o': 4, 'u': 2}
 countVowels('Over the Marcy Lab School');                       // {'a': 2, 'e': 1, 'i': 0, 'o': 3, 'u': 0}

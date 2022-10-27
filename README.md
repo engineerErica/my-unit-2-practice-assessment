@@ -115,10 +115,10 @@ console.log(b.goals);
 
 10. **Where does the following code throw an error? What type of error? Why?**
 ```javascript
-const bffs = 'Enmanuel Laisha';
-bffs = 'Enmanuel Laisha Cielo';
+const fellows = 'Itzel Carmen';
+fellows = 'Itzel Carmen Shemar';
 
-console.log(bffs);
+console.log(fellows);
 ```
 **tags**: #variableDeclaration #mutability #primitives
 **key:** "variables declared with `const` cannot be reassigned"
@@ -127,13 +127,13 @@ console.log(bffs);
 
 11. **Wait, why doesn't the code below throw an error?! 🧐 What does this demonstrate?**
 ```javascript
-const bffs = ['Enmanuel', 'Laisha'];
-bffs.push('Cielo');
+const fellows = ['Itzel', 'Carmen'];
+fellows.push('Shemar');
 
-console.log(bffs);
+console.log(fellows);
 ```
 **tags:** #mutability #objects
-**key:** "`bffs` was not reassigned", "JavaScript objects are mutable"
+**key:** "`fellows` was not reassigned", "JavaScript objects are mutable"
 
 
 

@@ -1,4 +1,4 @@
-# Unit 2 Assessment Practice Questions - JavaScript Fundamentals
+# Unit 2 Assessment Practice Questions - JavaScript Foundations
 
 ## Short Responses 
 

@@ -87,17 +87,17 @@ console.log(a);
 
 
 
-8. **What is the value of `b` after this code runs? Explain why this is the case.**
+8. **What is the value of `y` after this code runs? Explain why this is the case.**
 ```javascript
-let a = 1;
-let b = a;
-a += 1;
+let x = 1;
+let y = x;
+x += 1;
 
-console.log(a);
-console.log(b);
+console.log(x);
+console.log(y);
 ```
 **tags:** #mutability
-**key:** "`b` points to the integer `1`, a primitive data type", "reassigning `a` has no effect on `b`" 
+**key:** "`y` points to the integer `1`, a primitive data type", "reassigning `x` has no effect on `y`" 
 
 
 

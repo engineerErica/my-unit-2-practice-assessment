@@ -41,12 +41,12 @@ var greeting = "Hello"
 
 4. **Why does the following block of code throw an error? How can we fix this without changing the variable declaration keyword?**
 ```javascript
-const isMaya🧘🏽‍♀️ = true;
+const isSunny = true;
 
-if (isMaya🧘🏽‍♀️) {
-  let status = 'Everything is just fine';
+if (isSunny) {
+  let status = 'No umbrella needed!';
 } else {
-  let status = 'Time to panic.'
+  let status = 'Better wear a raincoat!'
 }
 
 console.log(status);
@@ -58,12 +58,12 @@ console.log(status);
 
 5. **Why does the following block of code NOT throw an error?**
 ```javascript
-const isLaishaOnTime = true;
+const isSunny = true;
 
-if (isLaishaOnTime) {
-  var status = 'Everything is just fine';
+if (isSunny) {
+  var status = 'No umbrella needed!';
 } else {
-  var status = 'Time to panic.'
+  var status = 'Better wear a raincoat!'
 }
 
 console.log(status);

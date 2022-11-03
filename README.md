@@ -306,7 +306,7 @@ isLeapYear(2000); // true
 ```
 
 
-4. Write a function that combines two arrays into one new array. The new array should start with an item from the first array, then an item from the second array, and then alternates. You can assume the two input arrays are the same length.
+4. Write a function that combines two arrays into one new array. The new array should start with an item from the first array argument, then an item from the second array argument, and then alternates. You can assume the two input arrays are the same length.
 
 Example:
 ```javascript

@@ -359,13 +359,13 @@ characterGenerator("Elminster");
 /*
 {
   name: "Elminster",
-  strength: 10,
-  dexterity: 8,
-  constitution: 12,
-  intelligence: 14,
-  wisdom: 12,
-  charisma: 18,
-  hitpoints: 11
+  strength: 10, // randomly generated
+  dexterity: 8, // randomly generated
+  constitution: 12, // randomly generated
+  intelligence: 14, // randomly generated
+  wisdom: 12, // randomly generated
+  charisma: 18, // randomly generated
+  hitpoints: 11 // 10 + ((12-10)/2)
 }
 
 */

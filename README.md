@@ -358,7 +358,7 @@ characterGenerator("Elminster");
 
 /*
 {
-  name: "Elminster"
+  name: "Elminster",
   strength: 10,
   dexterity: 8,
   constitution: 12,

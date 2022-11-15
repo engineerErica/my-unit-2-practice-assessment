@@ -350,7 +350,7 @@ For example, the six throws of four dice may look like:
   * 6, 6, 6, 6: You discard the 6 and sum 6 + 6 + 6 = 18, which you assign to charisma.
 Because constitution is 3, the constitution modifier is -4 and the hitpoints are 6.
 
-Your function should take one argument, a `name`. It should generate random attribute values using `Math.rand()`. The function should return a JavaScript Object that contains all of the above attributes.
+Your function should take one argument, a `name`. It should generate random attribute values using `Math.random()`. The function should return a JavaScript Object that contains all of the above attributes.
 
 Example:
 ```javascript
